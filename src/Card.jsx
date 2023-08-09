@@ -11,7 +11,7 @@ export default function Card(props) {
         <h2>
           {props.fname} {props.lname}
         </h2>
-        <div className="email">{props.email}</div>
+        <div className="email">email: {props.email}</div>
       </div>
     </div>
   );
